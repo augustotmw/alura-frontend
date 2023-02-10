@@ -38,7 +38,7 @@ em strong {
     text-align: center;
 }
 
-ul {
+.benefits ul {
     display: inline-block;
     vertical-align: top;
     width: 20%;
