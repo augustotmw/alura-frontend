@@ -1,18 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    display: block;
-    height: 100%;
-}
-
-
 body {
-    display: block;
-    height: 100%;
     background-color: #000;
     color: #F6F6F6;
 }
@@ -33,10 +19,4 @@ h1 strong {
     display: inline-block;
     border-radius: 16px;
     transform: translate(18px, -18px);
-    margin: 18px 18px 0 0;
-}
-
-main {
-    display: flex;
-    align-items: center;
 }
