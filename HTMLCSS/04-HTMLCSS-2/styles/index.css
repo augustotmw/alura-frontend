@@ -66,7 +66,7 @@ section .actions {
 
 section .actions a {
     border-radius: 16px;
-    border: 0px solid #22D4FD;
+    border: 0 solid #22D4FD;
     background: #22D4FD;
 
     width: 280px;
