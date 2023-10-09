@@ -12,6 +12,6 @@ Augusto TMW
 
 
 ---
+#### [Índice](./index.html)
 
-
-## Índice
+#### [Vercel](https://vercel.com) visualization: [@augustotmw/alura-frontend](https://alura-frontend-six.vercel.app/)
