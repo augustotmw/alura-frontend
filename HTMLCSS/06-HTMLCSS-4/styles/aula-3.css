@@ -163,22 +163,7 @@ footer p {
 
 @media (max-width: 860px) {
 
-    header {
-        padding: 10%;
-    }
-
-    header nav {
-        justify-content: space-around;
-    }
-
     main {
         flex-direction: column-reverse;
-        align-items: center;
-        margin: 0;
-        padding: 30px;
-    }
-
-    section {
-        max-width: 100%;
     }
 }
