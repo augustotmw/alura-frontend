@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-azul-1: #167BF7;
+    --cor-branco-0: #FFFFFF;
+    --cor-preto-1: #040814;
+    --cor-vermelho-1: #EC2F46;
+    --cor-cinza-1: #C0C0C0;
+
+    --font-Inter: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--cor-branco-0);
+}
+
+html {
+    display: block;
+    height: 100%;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    background-color: var(--cor-preto-1);
+
+}
+
+section {
+    max-width: 1440px;
+    width: 100%;
+}
