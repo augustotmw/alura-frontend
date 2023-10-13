@@ -33,7 +33,35 @@ body {
 
 }
 
+h1 {
+    font-family: var(--font-Inter);
+    font-weight: bold;
+}
+
 section {
     max-width: 1440px;
     width: 100%;
+    display: flex;
+}
+
+#landing {
+    padding: 32px;
+    gap: 32px;
+    min-height: 100vh;
+    justify-content: flex-start
+}
+
+#landing > div {
+    max-width: 588px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    padding: 22px;
+}
+
+#landing h1 {
+    text-align: center;
+    font-size: 28px;
 }
