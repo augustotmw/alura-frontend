@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-azul-1: #167BF7;
+    --cor-branco-0: #FFFFFF;
+    --cor-branco-1: #F9F9F9;
+    --cor-preto-1: #040814;
+    --cor-vermelho-1: #EC2F46;
+    --cor-cinza-1: #C0C0C0;
+
+    --font-Inter: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--cor-branco-1);
+    font-family: var(--font-Inter);
+}
+
+html {
+    display: block;
+    height: 100%;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    font-size: 16px;
+    background-color: var(--cor-preto-1);
+
+}
+
+a.btn {
+    text-decoration: none;
+    padding: 16px;
+    display: inline-block;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    background-color: var(--cor-azul-1);
+    color: var(--cor-branco-0);
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+ul, ul li {
+    list-style: none;
+}
+
+h1, h2 {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: var(--cor-branco-0);
+}
+
+h2 {
+    font-size: 48px;
+}
+
+section > div > img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+section > div {
+    width: 50%;
+}
+
+section {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    min-height: 100vh;
+
+    padding: 45px;
+    gap: 69px;
+    align-items: center;
+}
+
+/* section #landing */
+
+#landing {
+    padding: 32px;
+    gap: 32px;
+    justify-content: flex-start;
+    background: url("../medias/Background.png") no-repeat center right;
+    background-size: contain;
+}
+
+#landing > div > img {
+    max-width: 356px;
+}
+
+#landing > div {
+    max-width: 588px;
+    width: 100%;
+    padding: 22px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+
+#landing h1 {
+    text-align: center;
+    font-size: 28px;
+}
+
+#landing ul li {
+    text-align: center;
+    color: var(--cor-cinza-1);
+}
+
+#landing a {
+    width: 100%;
+    max-width: 512px;
+}
+
+#landing ul li:nth-of-type(2) a {
+    background-color: transparent;
+    border: 1px solid var(--cor-branco-0);
+}
+
+#landing ul li:nth-last-of-type(1) {
+    font-size: 12px;
+}
+
+/* others sections */
+
+#platforms img,
+#promotions img,
+#courses img {
+    max-width: 498px;
+}
