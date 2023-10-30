@@ -1,8 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 :root {
+    --azul-1: #002F52;
+    --azul-degrade: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
     --bg-color-1: #ebecee;
+    --branco-0: #FFFFFF;
+    --laranja-1: #EB9B00;
+
+    --font-poppins: 'Poppins', sans-serif;
+}
+
+* {
+    font-family: var(--font-poppins);
+}
+
+html {
+    display: block;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+    background-color: var(--bg-color-1);
+}
+
+header {
+    background-color: var(--branco-0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    position: relative;
+}
+
+header > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header > div:nth-last-of-type(1) {
+    justify-content: flex-end;
+}
+
+#menu {
+    display: none;
 }
 
 
-body {
-    background-color: var(--bg-color-1);
+header > div .menu {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url("imgs/Menu.svg") no-repeat center center;
+    background-size: contain;
+}
+
+header > div ul {
+    position: absolute;
+    display: none;
+    top: 100%;
+    background-color: var(--branco-0);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.25);
+    padding: 24px 24px 0;
+}
+
+#menu:checked ~ ul {
+    display: block;
+}
+
+header > div ul li span {
+    display: block;
+    color: var(--laranja-1);
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+header > div ul li a {
+    display: block;
+    padding: 16px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    background: var(--azul-degrade);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+header > div .logo {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+header > div > a {
+    flex: 0;
+    display: inline-block;
+}
+
+header > div > a img {
+    width: 32px;
+    height: 32px;
 }
