@@ -1,0 +1,38 @@
+section.banner {
+    background: var(--azul-degrade);
+    text-align: center;
+    color: var(--branco-0);
+}
+
+section.banner h2 {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+section.banner p {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+section.banner input {
+    padding: 10px 10px 10px 36px;
+    align-items: center;
+    background: url("imgs/Pesquisa.svg") no-repeat 10px center;
+    color: var(--branco-0);
+    border: 1px solid var(--branco-0);
+    border-radius: 24px;
+    width: 100%;
+}
+
+section.banner input::placeholder {
+    width: 100%;
+    color: var(--branco-0);
+    font-size: 14px;
+    font-weight: 400;
+}
